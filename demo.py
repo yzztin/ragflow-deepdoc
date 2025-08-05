@@ -20,8 +20,8 @@ if __name__ == "__main__":
     file_type = "naive"
     chunker = FACTORY[file_type]
 
-    file_path = "/mnt/c/Users/zzy/Desktop/rag_test.docx"
-    # file_path = "/mnt/c/Users/zzy/Desktop/pic_one.pdf"
+    # file_path = "/mnt/c/Users/zzy/Desktop/rag_test.docx"
+    file_path = "/mnt/c/Users/zzy/Desktop/pic_one.pdf"
 
     res = chunker.chunk(file_path, callback=dummy)
     print(res)

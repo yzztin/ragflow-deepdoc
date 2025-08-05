@@ -18,7 +18,6 @@ word2number
 cn2an
 chardet
 python-pptx
-aspose-slides
 PyPDF2
 pypdf
 xgboost
