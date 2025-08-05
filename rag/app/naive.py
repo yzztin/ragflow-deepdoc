@@ -27,8 +27,7 @@ from PIL import Image
 from tika import parser
 
 from parser import DocxParser, ExcelParser, HtmlParser, JsonParser, MarkdownParser, PdfParser, TxtParser
-from parser.figure_parser import VisionFigureParser, vision_figure_parser_figure_data_wrapper
-from parser.pdf_parser import PlainParser, VisionParser
+from parser.pdf_parser import PlainParser
 from rag.nlp import (
     concat_img,
     find_codec,
